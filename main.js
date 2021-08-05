@@ -43,6 +43,8 @@ app.post("/inputs", function (req,res,next){
         age:req.body.number
     });
 
+    
+
     newstaffs.save().then(
         (secres)=>{
             res.send("Data  Added Sucessfully");
