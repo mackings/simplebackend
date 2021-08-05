@@ -47,7 +47,7 @@ app.post("/inputs", function (req,res,next){
 
     newstaffs.save().then(
         (secres)=>{
-            res.send("Data  Added Sucessfully");
+            res.send("Data  Added Sucessfully Lol");
             console.log("Data Added")
         }
     )
